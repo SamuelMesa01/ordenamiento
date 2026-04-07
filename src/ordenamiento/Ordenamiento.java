@@ -38,4 +38,7 @@ public class Ordenamiento {
             }
         }
     }
+    private static void ordenarConSort(int v[]) {
+        Arrays.sort(v);
+    }
 }
