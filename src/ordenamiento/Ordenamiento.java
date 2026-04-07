@@ -23,8 +23,9 @@ public class Ordenamiento {
 
         System.out.println("Arreglo generado: " + Arrays.toString(arr));
         ordenar(arr);
+        System.out.println("Arreglo ordenado (manual): " + Arrays.toString(arr));
         ordenarConSort(arr2);
-        System.out.println("Arreglo ordenado con Arrays.sort: " + Arrays.toString(arr2));
+        System.out.println("Arreglo ordenado con (Arrays.sort): " + Arrays.toString(arr2));
     }
 
     private static void ordenar(int v[]) {
