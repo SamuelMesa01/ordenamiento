@@ -22,8 +22,8 @@ public class Ordenamiento {
         int arr2[] = Arrays.copyOf(arr, arr.length);
 
         System.out.println("Arreglo generado: " + Arrays.toString(arr));
-
         ordenar(arr);
+        ordenarConSort(arr2);
         System.out.println("Arreglo ordenado: " + Arrays.toString(arr));
     }
 
