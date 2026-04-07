@@ -18,6 +18,8 @@ public class Ordenamiento {
         for (int i = 0; i < n; i++) {
             arr[i] = rand.nextInt(100);
         }
+        
+        int arr2[] = Arrays.copyOf(arr, arr.length);
 
         System.out.println("Arreglo generado: " + Arrays.toString(arr));
 
